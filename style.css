@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+/* Square */
+.square {
+    
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Optional: Set a distinct color if needed */
+    display: flex; /* Optional: To center any content inside */
+    justify-content: center; /* Optional: Center content horizontally */
+    align-items: center;
+}
+
+/* Circle */
+.circle {
+    border-radius: 50%;
+}
+
+/* Triangle */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #e74c3c;
+    background: none;
+}
+
+/* Ellipse */
+.ellipse {
+    border-radius: 50% / 25%;
+}
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #007bff;
+    border: 1px solid black;
+  }
